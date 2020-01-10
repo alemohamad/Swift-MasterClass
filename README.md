@@ -18,21 +18,21 @@ Lecture video: [https://youtu.be/Smy5XxsSZ8s](https://youtu.be/Smy5XxsSZ8s)
 
 ### Protocol Oriented Programming
 
-* [https://www.raywenderlich.com/814-introducing-protocol-oriented-programming-in-swift-3](https://medium.com/swift-india/oops-in-swift-998738407423)
-* [https://www.appcoda.com/protocol-oriented-programming/](https://medium.com/swift-india/oops-in-swift-998738407423)
-* [https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming](https://medium.com/swift-india/oops-in-swift-998738407423)
-* [https://www.raywenderlich.com/960290-ios-unit-testing-and-ui-testing-tutorial](https://medium.com/swift-india/oops-in-swift-998738407423)
-* [https://medium.com/ios-seminar/protocol-oriented-programming-a-swift-solution-to-oop-headaches-e05d9c5d29a1](https://medium.com/swift-india/oops-in-swift-998738407423)
+* [https://www.raywenderlich.com/814-introducing-protocol-oriented-programming-in-swift-3](https://www.raywenderlich.com/814-introducing-protocol-oriented-programming-in-swift-3)
+* [https://www.appcoda.com/protocol-oriented-programming/](https://www.appcoda.com/protocol-oriented-programming/)
+* [https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming](https://www.hackingwithswift.com/example-code/language/what-is-protocol-oriented-programming)
+* [https://www.raywenderlich.com/960290-ios-unit-testing-and-ui-testing-tutorial](https://www.raywenderlich.com/960290-ios-unit-testing-and-ui-testing-tutorial)
+* [https://medium.com/ios-seminar/protocol-oriented-programming-a-swift-solution-to-oop-headaches-e05d9c5d29a1](https://medium.com/ios-seminar/protocol-oriented-programming-a-swift-solution-to-oop-headaches-e05d9c5d29a1)
 
 ### Networking
 
-* [https://learnappmaking.com/urlsession-swift-networking-how-to/](https://medium.com/swift-india/oops-in-swift-998738407423)
+* [https://learnappmaking.com/urlsession-swift-networking-how-to/](https://learnappmaking.com/urlsession-swift-networking-how-to/)
 
 ### Unit Testing
 
-* [https://www.swiftbysundell.com/basics/unit-testing/](https://medium.com/swift-india/oops-in-swift-998738407423)
-* [https://www.avanderlee.com/swift/unit-tests-best-practices/](https://medium.com/swift-india/oops-in-swift-998738407423)
-* [https://www.hackingwithswift.com/read/39/2/creating-our-first-unit-test-using-xctest](https://medium.com/swift-india/oops-in-swift-998738407423)
+* [https://www.swiftbysundell.com/basics/unit-testing/](https://www.swiftbysundell.com/basics/unit-testing/)
+* [https://www.avanderlee.com/swift/unit-tests-best-practices/](https://www.avanderlee.com/swift/unit-tests-best-practices/)
+* [https://www.hackingwithswift.com/read/39/2/creating-our-first-unit-test-using-xctest](https://www.hackingwithswift.com/read/39/2/creating-our-first-unit-test-using-xctest)
 
 ## Week 1: Communication Patterns
 
