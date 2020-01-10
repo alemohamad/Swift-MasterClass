@@ -2,12 +2,12 @@
 
 Online class to learn **CS and iOS fundamentals**, created by [Cyril Garcia](https://twitter.com/_ByCyril).
 
-[Slack group](https://swiftmasterclass.slack.com/)
+* [Assignments and lecture notes](https://github.com/cyrilivargarcia/Swift-MasterClass) (GitHub)
+* [Slack group](https://swiftmasterclass.slack.com/)
 
 ## Week 0: Foundational
 
-* [Lecture video](https://youtu.be/Smy5XxsSZ8s) (YouTube)
-* [Assignments and lecture notes](https://github.com/cyrilivargarcia/Swift-MasterClass) (GitHub)
+Lecture video: [https://youtu.be/Smy5XxsSZ8s](https://youtu.be/Smy5XxsSZ8s)
 
 ### Object Oriented Programming
 
