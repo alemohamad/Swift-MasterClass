@@ -16,6 +16,7 @@
 		012BD6E6238F5F3700D6488D /* MathMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012BD6E5238F5F3700D6488D /* MathMachineTests.swift */; };
 		012BD703238F5F7800D6488D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012BD702238F5F7800D6488D /* Stack.swift */; };
 		012BD704238F5F7800D6488D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012BD702238F5F7800D6488D /* Stack.swift */; };
+		991CC79A23C8F431005C61AE /* MathMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CC79923C8F431005C61AE /* MathMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		012BD6E5238F5F3700D6488D /* MathMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathMachineTests.swift; sourceTree = "<group>"; };
 		012BD6E7238F5F3700D6488D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		012BD702238F5F7800D6488D /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		991CC79923C8F431005C61AE /* MathMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				012BD702238F5F7800D6488D /* Stack.swift */,
+				991CC79923C8F431005C61AE /* MathMachine.swift */,
 			);
 			path = MathMachine;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991CC79A23C8F431005C61AE /* MathMachine.swift in Sources */,
 				012BD6D3238F5F3600D6488D /* ViewController.swift in Sources */,
 				012BD6CF238F5F3600D6488D /* AppDelegate.swift in Sources */,
 				012BD6D1238F5F3600D6488D /* SceneDelegate.swift in Sources */,
