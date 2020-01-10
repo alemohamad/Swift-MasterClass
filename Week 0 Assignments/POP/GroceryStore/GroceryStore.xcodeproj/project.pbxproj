@@ -15,6 +15,7 @@
 		01257E6C23C04F940078B207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01257E6A23C04F940078B207 /* LaunchScreen.storyboard */; };
 		01257E7723C04F940078B207 /* GroceryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01257E7623C04F940078B207 /* GroceryStoreTests.swift */; };
 		01257EB223C05A190078B207 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01257EB123C05A190078B207 /* Customer.swift */; };
+		991CC79C23C8FB98005C61AE /* GroceryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CC79B23C8FB98005C61AE /* GroceryStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		01257E7623C04F940078B207 /* GroceryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStoreTests.swift; sourceTree = "<group>"; };
 		01257E7823C04F940078B207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01257EB123C05A190078B207 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		991CC79B23C8FB98005C61AE /* GroceryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				01257E6123C04F920078B207 /* SceneDelegate.swift */,
 				01257E6323C04F920078B207 /* ViewController.swift */,
 				01257EB123C05A190078B207 /* Customer.swift */,
+				991CC79B23C8FB98005C61AE /* GroceryStore.swift */,
 				01257E6523C04F920078B207 /* Main.storyboard */,
 				01257E6823C04F940078B207 /* Assets.xcassets */,
 				01257E6A23C04F940078B207 /* LaunchScreen.storyboard */,
@@ -205,6 +208,7 @@
 			files = (
 				01257E6423C04F920078B207 /* ViewController.swift in Sources */,
 				01257E6023C04F920078B207 /* AppDelegate.swift in Sources */,
+				991CC79C23C8FB98005C61AE /* GroceryStore.swift in Sources */,
 				01257E6223C04F920078B207 /* SceneDelegate.swift in Sources */,
 				01257EB223C05A190078B207 /* Customer.swift in Sources */,
 			);
