@@ -36,7 +36,20 @@ Lecture video: [https://youtu.be/Smy5XxsSZ8s](https://youtu.be/Smy5XxsSZ8s)
 
 ## Week 1: Communication Patterns
 
-TBD
+Lecture video: [https://youtu.be/8ncHRuoxpZo](https://youtu.be/8ncHRuoxpZo)
+
+### Notification Pattern
+
+* [http://www.cs.sjsu.edu/faculty/pearce/modules/patterns/events/pubsub.htm](http://www.cs.sjsu.edu/faculty/pearce/modules/patterns/events/pubsub.htm)
+* [http://www.cs.sjsu.edu/faculty/pearce/modules/patterns/events/reactor.htm](http://www.cs.sjsu.edu/faculty/pearce/modules/patterns/events/reactor.htm)
+* [https://developer.apple.com/documentation/foundation/notification](https://developer.apple.com/documentation/foundation/notification)
+* [https://articlesbycyril.com/ios-engineering/communication-patterns.html](https://articlesbycyril.com/ios-engineering/communication-patterns.html)
+
+### Delegate Patterns
+
+* [https://medium.com/@jamesrochabrun/implementing-delegates-in-swift-step-by-step-d3211cbac3ef](https://medium.com/@jamesrochabrun/implementing-delegates-in-swift-step-by-step-d3211cbac3ef)
+* [https://www.youtube.com/watch?v=DBWu6TnhLeY](https://www.youtube.com/watch?v=DBWu6TnhLeY)
+* [https://articlesbycyril.com/ios-engineering/communication-patterns.html](https://articlesbycyril.com/ios-engineering/communication-patterns.html)
 
 ## Week 2: Design Patterns
 
