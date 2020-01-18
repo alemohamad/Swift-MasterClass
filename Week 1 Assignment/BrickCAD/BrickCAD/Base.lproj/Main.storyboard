@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pcO-aK-ucE">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--BrickCAD-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BrickViewController" customModule="BrickCAD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9vT-VW-lBw">
+                                <rect key="frame" x="107" y="128" width="200" height="60"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="2x3-qB-dqg"/>
+                                    <constraint firstAttribute="width" constant="200" id="83G-3s-hqm"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jR2-ye-8X4">
+                                <rect key="frame" x="107" y="228" width="200" height="60"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="864-OM-uLk"/>
+                                    <constraint firstAttribute="width" constant="200" id="Tqh-Hu-jPj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2w8-e4-Bjf">
+                                <rect key="frame" x="107" y="328" width="200" height="60"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="10A-Gh-Mba"/>
+                                    <constraint firstAttribute="width" constant="200" id="LTa-LF-GmA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jR2-ye-8X4" firstAttribute="top" secondItem="9vT-VW-lBw" secondAttribute="bottom" constant="40" id="1gI-wK-n9b"/>
+                            <constraint firstItem="2w8-e4-Bjf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5Bt-kQ-kYy"/>
+                            <constraint firstItem="2w8-e4-Bjf" firstAttribute="top" secondItem="jR2-ye-8X4" secondAttribute="bottom" constant="40" id="Q32-qV-tLd"/>
+                            <constraint firstItem="9vT-VW-lBw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wG3-pL-V47"/>
+                            <constraint firstItem="jR2-ye-8X4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yQj-jX-lvd"/>
+                            <constraint firstItem="9vT-VW-lBw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="yl8-lh-Ek9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="BrickCAD" id="cTd-YZ-H8O">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="DEI-6a-UKI"/>
+                        <barButtonItem key="rightBarButtonItem" title="Edit" id="4Ji-Wv-WDJ">
+                            <connections>
+                                <action selector="goToEditBrickVC" destination="BYZ-38-t0r" id="4TH-Tb-e89"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="frontHeightConstraint" destination="10A-Gh-Mba" id="WSf-CO-5Ay"/>
+                        <outlet property="frontWidthConstraint" destination="LTa-LF-GmA" id="1ho-73-ZTr"/>
+                        <outlet property="sideHeightConstraint" destination="864-OM-uLk" id="nDK-iI-hdk"/>
+                        <outlet property="sideLengthConstraint" destination="Tqh-Hu-jPj" id="PV2-R9-NUh"/>
+                        <outlet property="topLengthConstraint" destination="2x3-qB-dqg" id="BuG-8f-RJj"/>
+                        <outlet property="topWidthConstraint" destination="83G-3s-hqm" id="WZm-vz-wE8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="117.85714285714285"/>
+        </scene>
+        <!--Edit Brick-->
+        <scene sceneID="y9Z-43-zUr">
+            <objects>
+                <viewController storyboardIdentifier="EditBrickVC" id="4yB-dw-lXz" customClass="EditBrickViewController" customModule="BrickCAD" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eLc-Hw-xZf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="hEU-R9-maf">
+                                <rect key="frame" x="60" y="94" width="294" height="222"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="atC-uR-iPN">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Width" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ja5-hH-SvA">
+                                        <rect key="frame" x="0.0" y="64" width="294" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Length" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ci9-Jl-yiX">
+                                        <rect key="frame" x="0.0" y="128" width="294" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFf-xf-PnD">
+                                        <rect key="frame" x="0.0" y="192" width="294" height="30"/>
+                                        <state key="normal" title="Set"/>
+                                        <connections>
+                                            <action selector="setTouched:" destination="4yB-dw-lXz" eventType="touchUpInside" id="HkD-ix-YoG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Jy6-Zf-Vig" firstAttribute="trailing" secondItem="hEU-R9-maf" secondAttribute="trailing" constant="60" id="WPc-Il-GXI"/>
+                            <constraint firstItem="hEU-R9-maf" firstAttribute="top" secondItem="Jy6-Zf-Vig" secondAttribute="top" constant="50" id="kVd-fc-kd6"/>
+                            <constraint firstItem="hEU-R9-maf" firstAttribute="leading" secondItem="Jy6-Zf-Vig" secondAttribute="leading" constant="60" id="zg9-Mm-vXB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jy6-Zf-Vig"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Brick" id="Q9V-5j-jYY"/>
+                    <connections>
+                        <outlet property="heightTextField" destination="atC-uR-iPN" id="t72-gW-Qmr"/>
+                        <outlet property="lengthTextField" destination="ci9-Jl-yiX" id="pXN-rF-mSl"/>
+                        <outlet property="widthTextField" destination="Ja5-hH-SvA" id="xrq-S2-ed3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5jf-Sj-B8K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1852" y="118"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kGs-EO-sqc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pcO-aK-ucE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5mk-Sj-muy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5Rf-ru-wv8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tTQ-vf-Qsc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236" y="118"/>
+        </scene>
+    </scenes>
+</document>
