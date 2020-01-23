@@ -53,7 +53,26 @@ Lecture video: [https://youtu.be/8ncHRuoxpZo](https://youtu.be/8ncHRuoxpZo)
 
 ## Week 2: Design Patterns
 
-TBD
+Lecture video: [https://youtu.be/JXaH0vvGwsk](https://youtu.be/JXaH0vvGwsk)
+
+### MVC
+
+* Model - logic code
+* View - UI Code
+* Controller - taking data from model, displaying it to the View - also works at data formatting
+
+### Modal-View-ViewModel
+
+* Modal is a container for your data (structs, enum, class of data)
+* View is view code
+* ViewModel is data formatting for the view
+
+### Layered Architecture
+
+* Presentation layer - UI Code/View - subscriber
+* Controller layer - Controller
+* Business layer - logic - publisher
+* Framework layer - generic code (converting a double to a percentage as string)
 
 ## Week 3: iOS Machine Learning
 
